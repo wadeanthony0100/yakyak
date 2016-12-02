@@ -1,0 +1,6 @@
+
+yakyak:
+  build: .
+  volumes:
+    - .:/data
+  command: bash -c "mv /node_modules ./ && xvfb-run npm run deploy"
