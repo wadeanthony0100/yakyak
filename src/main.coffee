@@ -7,7 +7,7 @@ path      = require 'path'
 tmp       = require 'tmp'
 clipboard = require('electron').clipboard
 Menu      = require('electron').menu
-session = require('electron').session
+session   = require('electron').session
 
 tmp.setGracefulCleanup()
 
